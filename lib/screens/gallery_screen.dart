@@ -35,10 +35,7 @@ class _GalleryScreenState extends State<GalleryScreen> {
       return '';
     }
   }
-  // this is good
-  
-//  ths is feature
-// this is
+ //this is the feature
   void showFailedSnackBar(String value) {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
