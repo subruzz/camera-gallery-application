@@ -34,9 +34,8 @@ class _GalleryScreenState extends State<GalleryScreen> {
       showFailedSnackBar('Failed to create a folder');
       return '';
     }
-  }
-  // failed message
-// this is
+  }//this is master thing
+
   void showFailedSnackBar(String value) {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
